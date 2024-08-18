@@ -30,5 +30,4 @@ public class Destinations {
     @OneToOne(cascade = CascadeType.ALL)
     @JoinColumn(name = "file_data_id", referencedColumnName = "id")
     private FileData imageData;
-
 }
